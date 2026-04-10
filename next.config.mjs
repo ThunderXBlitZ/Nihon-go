@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/Nihon-go',
+  basePath: process.env.NODE_ENV === 'production' ? '/Nihon-go' : '',
   images: {
     unoptimized: true,
   },
