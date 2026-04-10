@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nihongo Navigator - Learn Japanese with Ease",
-  description: "A clean, minimalistic app for learning Japanese from beginner to advanced levels",
+  title: "Nihon-Go! - Learn Japanese quickly, using AI!",
+  description: "A clean, minimalistic AI app for learning Japanese from beginner to advanced levels",
   generator: "v0.app",
 };
 

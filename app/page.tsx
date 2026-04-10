@@ -11,8 +11,8 @@ export default function Home() {
         <div className="container px-4 md:px-6 flex h-16 items-center">
           <div className="mr-4 flex">
             <Link href="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold">日本語</span>
-              <span className="text-sm text-muted-foreground">Nihongo Navigator</span>
+              <span className="text-xl font-bold" style={{ color: 'var(--ring)' }}>日本語</span>
+              <span className="text-sm text-muted-foreground">Nihon-Go!</span>
             </Link>
           </div>
           <nav className="hidden flex-1 justify-center md:flex">
@@ -196,7 +196,7 @@ export default function Home() {
       <footer className="w-full border-t py-6">
         <div className="container px-4 md:px-6 flex flex-col items-center justify-between gap-4 md:flex-row">
           <p className="text-sm text-muted-foreground">
-            © 2024 Nihongo Navigator. All rights reserved.
+            © 2024 Nihon-Go!. All rights reserved.
           </p>
           <nav className="flex gap-4">
             <Link href="/terms" className="text-sm text-muted-foreground hover:underline">
